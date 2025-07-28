@@ -1,14 +1,21 @@
 # Vancouver Accident Visualization
 
-## 🔧 Data Cleaning Process in PostGreSQL
+### 🧪 Data Source
+https://www.kaggle.com/datasets/tcashion/icbc-vehicle-crash-dataset
+
+## 🔧 Data Cleaning Process in PostgreSQL
 
 To ensure accurate analysis, I cleaned the traffic dataset as follows:
 
-| Column Name       | Issue Detected                      | Action Taken                                           | Justification                          |
-|------------------|-------------------------------------|--------------------------------------------------------|----------------------------------------|
-| `crash_breakdown_2`        | None      | None                              | None       |
-| `speed`          | NULL values in 8% of rows           | Replaced with mean speed (`45.2 km/h`)                 | Mean imputation to preserve row count  |
-| `accident_cause` | 12% NULL                            | Excluded from model training                           | Avoided bias from unreliable imputation|
+| Column Name     | Issue Detected  | Action Taken   | Justification |
+|-----------------|------------------|-----------------|-----------------|
+| `crash_breakdown_2`| None | None | None |
+| `date_of_loss_year`          | None | None | None |
+| `animal_involved` | None | None | None|
+| 'crash_severity' | None | None | None |
+| 'cyclist_involved | None | None | None |
+| 'day_of_week' | None | None | None |
+| 'derived_crash_configuratoin' | Some values are recorded as 'UNDETERMINED' | Replaced those values with 'Unknown' | Allows users to filter and visualize unknown categories rather than ignoring them | 
 
 
 See `data_cleaning_log.csv` for full details.
