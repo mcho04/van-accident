@@ -12,10 +12,10 @@ To ensure accurate analysis, I cleaned the traffic dataset as follows:
 | `crash_breakdown_2`| None | None | None |
 | `date_of_loss_year`          | None | None | None |
 | `animal_involved` | None | None | None|
-| 'crash_severity' | None | None | None |
-| 'cyclist_involved | None | None | None |
-| 'day_of_week' | None | None | None |
-| 'derived_crash_configuratoin' | Some values are recorded as 'UNDETERMINED' | Replaced those values with 'Unknown' | Allows users to filter and visualize unknown categories rather than ignoring them | 
+| `crash_severity` | None | None | None |
+| `cyclist_involved` | None | None | None |
+| `day_of_week` | None | None | None |
+| `derived_crash_configuratoin` | Some values are recorded as 'UNDETERMINED' | Replaced those values with 'Unknown' | Allows users to filter and visualize unknown categories rather than ignoring them | 
 
 
 See `data_cleaning_log.csv` for full details.
