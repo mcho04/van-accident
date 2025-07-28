@@ -15,7 +15,5 @@ To ensure accurate analysis, I cleaned the traffic dataset as follows:
 | `crash_severity` | None | None | None |
 | `cyclist_involved` | None | None | None |
 | `day_of_week` | None | None | None |
-| `derived_crash_configuratoin` | Some values are recorded as 'UNDETERMINED' | Replaced those values with 'Unknown' | Allows users to filter and visualize unknown categories rather than ignoring them | 
+| `derived_crash_configuration` | Some values are recorded as 'UNDETERMINED' | Replaced those values with 'Unknown' | Allows users to filter and visualize unknown categories rather than ignoring them | 
 
-
-See `data_cleaning_log.csv` for full details.
