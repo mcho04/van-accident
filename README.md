@@ -28,6 +28,17 @@ van-accident-cleaning.sql.
 
 Dashboard Link: [View on Tableau Public](https://public.tableau.com/views/Van-Map2018-2022/Overview?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
+## 📊 Dashboard Overview
+
+### Overview Page
+![Overview Dashboard](Tableau%20Visualizations/Overview.png)
+
+### Map Visualization
+![Crash Map](Tableau%20Visualizations/Map.png)
+
+### Charts Section
+![Crash Trends](Tableau%20Visualizations/Charts.png)
+
 1️⃣ Overview Page
 
 Total Crashes: 335,811
