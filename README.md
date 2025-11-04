@@ -63,20 +63,5 @@ Crashes by Time of Day: highlights rush-hour peaks
 
 Crashes by Month: visualizes seasonal trends
 
-💾 Repository Structure
-Van-Accident/
-├── data/
-│   ├── van_accidents_cleaned.csv      # cleaned dataset (ignored in Git)
-│   ├── van_accidents_raw.csv          # raw dataset (ignored in Git)
-│   └── Archive.zip                    # compressed data files
-├── Tableau Visualizations/
-│   ├── Overview.png
-│   ├── Map.png
-│   ├── Charts.png
-│   └── Van-Map 2018-2022.twb
-├── van-accident-cleaning.sql          # SQL cleaning script
-├── README.md
-└── .gitignore
-
 🧪 Data Source
 https://www.kaggle.com/datasets/tcashion/icbc-vehicle-crash-dataset
